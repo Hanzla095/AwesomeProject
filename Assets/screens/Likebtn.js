@@ -1,11 +1,11 @@
 import {Text, View} from 'react-native';
 import React, {Component} from 'react';
 
-export default class Calculator extends Component {
+export default class Likebtn extends Component {
   render() {
     return (
       <View>
-        <Text>Calhhh</Text>
+        <Text>Likebtn</Text>
       </View>
     );
   }

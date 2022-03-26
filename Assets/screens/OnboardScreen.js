@@ -2,10 +2,6 @@ import {Text, View, Image, Button} from 'react-native';
 import React, {Component} from 'react';
 import Onboarding from 'react-native-onboarding-swiper';
 
-const Done = ({isLight, ...props}) => (
-  <Button title={'Done'} textStyle={{color: color(isLight)}} {...props} />
-);
-
 export default class OnboardScreen extends Component {
   render() {
     return (
@@ -63,7 +59,6 @@ export default class OnboardScreen extends Component {
 
           backgroundColor: 'white',
         }}
-        DoneButtonComponent={Done}
       />
     );
   }

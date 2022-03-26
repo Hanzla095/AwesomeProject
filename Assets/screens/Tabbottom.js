@@ -6,6 +6,7 @@ import Search from './Search';
 import Notify from './Notify';
 import Logout from './Logout';
 import Icon from 'react-native-vector-icons/AntDesign';
+import Swipe from './Swipe';
 const Tab = createBottomTabNavigator();
 export default class Tabbottom extends Component {
   render() {
@@ -25,7 +26,7 @@ export default class Tabbottom extends Component {
         />
         <Tab.Screen
           name="search"
-          component={Search}
+          component={Swipe}
           options={{
             tabBarIcon: () => (
               <Icon size={20} name="search1" color={'TintColor'} />
